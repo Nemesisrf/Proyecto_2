@@ -1,0 +1,241 @@
+body {
+  height: 100px;
+  background-image: url("/byw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 500px;
+  background-color: black;
+  background-position: left;
+}
+
+.logo {
+  width: 97%;
+  margin: 0 auto;
+  text-align: left;
+  background-image: url(/NOFEO.jpg);
+}
+
+.barradenavegacion {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  justify-content: left;
+  margin-top: 130px;
+}
+
+.navegacion {
+  padding: 10px 60px 10px 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 120%;
+  font-weight: 800;
+}
+
+.navegacion:hover {
+  background-color: brown;
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+nav {
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+.parallax {
+  background-image: url(/photo.jpg);
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+/* .cajaparallax {
+
+margin: 0 auto;
+
+}*/
+
+div.tituloparallax h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2cm;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.parrafoparallax {
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+}
+.parrafoparallax:hover {
+  background-color: brown;
+  opacity: 0.7;
+}
+
+.parrafoparallax a {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 10px 30px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.informacion {
+display: inline-flex;
+
+
+}
+.informacion p {
+
+color: whitesmoke;
+max-width: 50%;
+align-self: center;
+padding-left: 50px;
+line-height: 23px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tituloradiohead {
+
+font-size: 50px;
+font-weight: 700;
+color: whitesmoke;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tituloradiohead2 {
+color: whitesmoke;
+font-size: 25px;
+font-weight: 700;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.informacion img {
+max-width: 50%;
+height: auto;
+padding: 0px 50px 0px 50px;
+margin-top: 20px;
+}
+
+.contentmusic {
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+letter-spacing: 5px;
+line-height: 2px;
+}
+
+.contentmusic h2 {
+
+margin: 200px 0px;
+font-size: 1.5cm;
+color:lavender;
+font-weight: 900;
+text-align: center;
+}
+
+.container {
+width: 1500px;
+height: 500px;
+display: flex;
+justify-content: center;
+margin: auto;
+}
+
+.container .card{
+
+width: 400px;
+height: 500px;
+border-radius: 8px;
+box-shadow: 0 2px 2px rgb(63, 63, 63);
+overflow: hidden;
+margin: 0 10px;
+text-align: center;
+transition: all 0.25s;
+}
+
+.container .card:hover {
+
+transform: translateY(-15px);
+
+}
+
+.container .card img {
+
+width: 400px;
+height: 350px;
+
+}
+ .container .card h4 {
+
+font-weight: 1000px;
+color:rgb(216, 216, 216)
+
+ }
+
+ .container .card p{
+
+padding: 0 1rem;
+font-size: 16px;
+font-weight: 300;
+color: antiquewhite;
+ }
+
+.container .card a {
+color: brown;
+text-decoration: none;
+}
+
+.imagensection {
+margin-top: 70px;
+width: 351px;
+height: 70.906px;
+ display: flex;
+ margin-bottom: 50px;
+ margin-left: auto;
+margin-right: auto;
+}
+
+.iflameprincipal {
+ text-align: center;
+margin-bottom: 45px;
+margin-top: 45px;
+} 
+
+.iflame {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+}
+
+.footer {
+
+background-color: brown;
+height: 100px;
+min-height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer p {
+text-align: center;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+color: rgb(255, 231, 220);
+}
