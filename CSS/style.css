@@ -1,6 +1,6 @@
 body {
   height: 100px;
-  background-image: url("/byw.jpg");
+  background-image: url("byw.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 500px;
@@ -12,7 +12,7 @@ body {
   width: 97%;
   margin: 0 auto;
   text-align: left;
-  background-image: url(/NOFEO.jpg);
+  background-image: url(NOFEO.jpg);
 }
 
 .barradenavegacion {
@@ -46,7 +46,7 @@ nav {
   text-align: center;
 }
 .parallax {
-  background-image: url(/photo.jpg);
+  background-image: url(photo.jpg);
   min-height: 1000px;
   background-repeat: no-repeat;
   background-position: center;
